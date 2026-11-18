@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MergeScope — merge sort control flow</title>
+<style>
+  :root{
+    --ink:#0d1a24; --ink2:#4a5b68; --line:#c4d2dc; --accent:#0f8f7a;
+    --accent-soft:#e3f4f0; --panel:#f6f9fb; --warn:#a8620d; --warn-soft:#fdf1e0;
+    --mono: "Cascadia Mono", "Consolas", ui-monospace, monospace;
+    --sans: "Segoe UI", system-ui, sans-serif;
+  }
+  .mono {
+    --ink:#000; --ink2:#3D3D3D; --line:#8C8C8C; --accent:#000;
+    --accent-soft:#EDEDED; --panel:#F5F5F5; --warn:#000; --warn-soft:#E8E8E8;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#fff;color:var(--ink);font-family:var(--sans)}
+  #fig{width:760px;padding:26px 26px 18px}
+  .cap{font:600 10.5px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 14px}
+  .lane{display:grid;grid-template-columns:1fr;gap:0;justify-items:center}
+  .box{
+    width:100%;max-width:560px;border:1.5px solid var(--line);border-radius:10px;
+    background:var(--panel);padding:9px 14px;font:12.5px/1.45 var(--mono);color:var(--ink);
+  }
+  .box .k{color:var(--accent);font-weight:700}
+  .box b{font-family:var(--sans)}
+  .box small{display:block;font-family:var(--sans);font-size:11px;color:var(--ink2);margin-top:2px}
+  .dec{border-color:var(--accent);background:var(--accent-soft);max-width:560px;width:100%}
+  .term{border-style:dashed;background:#fff;max-width:560px;width:100%}
+  .arw{width:1.5px;height:22px;background:var(--line);position:relative}
+  .arw::after{content:"";position:absolute;left:-4px;bottom:-1px;border:5px solid transparent;border-top-color:var(--line)}
+  .arw.short{height:14px}
+  .split{width:100%;max-width:560px;display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:2px 0}
+  .split .box{max-width:none}
+  .conn{display:block;width:100%;max-width:560px;height:38px}
+  .conn line,.conn path{stroke:var(--line);stroke-width:1.5;fill:none}
+  .conn polygon{fill:var(--line)}
+  .tag{display:inline-block;font:600 9.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:2px 6px;margin-left:6px;vertical-align:1px}
+  .note{max-width:560px;width:100%;font:11px/1.5 var(--sans);color:var(--ink2);margin-top:10px;border-left:2px solid var(--line);padding-left:9px}
+  .warn{border-color:var(--warn);background:var(--warn-soft)}
+  .warn .k{color:var(--warn)}
+</style>
+</head>
+<body>
+<script>
+  if (location.search.includes('mono')) document.documentElement.classList.add('mono');
+</script>
+<div id="fig">
+  
+
+  <div class="lane">
+    <div class="box"><b>mergeSort</b>(lo, hi) <span class="tag">entry</span><small>sort the half-open range A[lo, hi)</small></div>
+    <div class="arw"></div>
+    <div class="box dec"><b>hi − lo ≤ 1 ?</b><span class="k"> ── yes ──▶</span> return <small>0 or 1 element: already sorted, this is the base case of the recursion</small></div>
+    <div class="arw"></div>
+    <div class="box">mid ← ⌊(lo + hi) / 2⌋ <small>split into two halves of ⌊n/2⌋ and ⌈n/2⌉ — the split needs no comparisons</small></div>
+    <div class="arw"></div>
+    <div class="split">
+      <div class="box"><b>mergeSort</b>(lo, mid)</div>
+      <div class="box"><b>mergeSort</b>(mid, hi)</div>
+    </div>
+    <svg class="conn" viewBox="0 0 560 38" aria-hidden="true">
+      <line x1="140" y1="0" x2="140" y2="17"/>
+      <line x1="420" y1="0" x2="420" y2="17"/>
+      <line x1="140" y1="17" x2="420" y2="17"/>
+      <line x1="280" y1="17" x2="280" y2="30"/>
+      <polygon points="280,38 275,28 285,28"/>
+    </svg>
+    <div class="box"><b>merge</b>(lo, mid, hi)<small>both halves are now sorted; walk the two runs and write the smaller head first</small></div>
+    <div class="arw"></div>
+    <div class="box warn">while i &lt; mid and j &lt; hi:<br>&nbsp;&nbsp;<span class="k">if</span> A[i].key ≤ A[j].key → take i<br>&nbsp;&nbsp;<span class="k">else</span> → take j<small>one comparison per element written; “≤” is what makes the sort stable</small></div>
+    <div class="arw short"></div>
+    <div class="box term">copy any remaining tail, write the buffer back into A[lo, hi), return<small>the merge pass touches every element exactly once → Θ(k) work for a subproblem of size k</small></div>
+  </div>
+
+  <p class="note">
+    Recursion depth is ⌈log₂ n⌉ and every level of the tree touches all n elements exactly once,
+    so the total work is c·n per level × (log₂ n + 1) levels = Θ(n log n).
+    The iterative “while” loop above is the only place comparisons happen.
+  </p>
+</div>
+</body>
+</html>

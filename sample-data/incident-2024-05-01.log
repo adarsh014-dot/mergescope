@@ -1,0 +1,536 @@
+2024-05-01T09:24:16.864Z [billing] INFO  req=660d47 route=POST /v1/payments status=201 dur_ms=138 user=u_4102
+2024-05-01T09:20:32.205Z [billing] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4722
+2024-05-01T09:21:51.559Z [api-gateway] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4672
+2024-05-01T09:15:35.262Z [auth-service] INFO  scheduler tick jobs=12 scheduled=0 skipped=1
+2024-05-01T09:21:25.226Z [ingest-worker] INFO  health probe ok host=ip-10-0-9-4 region=eu-west-1b uptime_s=8968
+2024-05-01T09:21:35.685Z [db-proxy] DEBUG retry decision attempt=1 backoff_ms=373 jitter=32.0
+2024-05-01T09:22:37.628Z [billing] DEBUG span export batch=4 traces=141 dropped=0
+2024-05-01T09:14:03.019Z [billing] WARN  slow query 1420ms route=GET /v1/search user=u_6027 rows=1245
+2024-05-01T09:19:05.149Z [api-gateway] WARN  upstream retry attempt=4 upstream=orders-api status=502
+2024-05-01T09:17:41.261Z [ingest-worker] INFO  scheduler tick jobs=12 scheduled=2 skipped=1
+2024-05-01T09:18:12.880Z [db-proxy] INFO  req=6c36e4 route=POST /v1/payments status=201 dur_ms=194 user=u_4102
+2024-05-01T09:25:35.272Z [api-gateway] INFO  cache hit keyspace=pricing hit=91% size_mb=171
+2024-05-01T09:20:59.311Z [ingest-worker] WARN  pool utilisation=0.78 max=200 active=146
+2024-05-01T09:25:02.717Z [auth-service] INFO  req=6c55d3 route=GET /v1/orders/8345 status=200 dur_ms=42 user=u_1041
+2024-05-01T09:14:04.485Z [scheduler] DEBUG retry decision attempt=2 backoff_ms=184 jitter=12.3
+2024-05-01T09:17:51.998Z [db-proxy] INFO  req=6326df route=GET /v1/orders status=200 dur_ms=56 user=u_1041
+2024-05-01T09:22:48.712Z [api-gateway] INFO  req=62ab23 route=GET /v1/orders/8290 status=200 dur_ms=7 user=u_5518
+2024-05-01T09:18:12.801Z [scheduler] INFO  slow query 1420ms route=GET /v1/search user=u_4102 rows=1272
+2024-05-01T09:14:11.174Z [billing] INFO  req=6137ef route=GET /v1/orders/8722 status=200 dur_ms=27 user=u_1041
+2024-05-01T09:17:48.277Z [api-gateway] INFO  health probe ok host=ip-10-0-9-3 region=eu-west-1a uptime_s=8824
+2024-05-01T09:20:24.182Z [db-proxy] WARN  upstream retry attempt=4 upstream=orders-api status=502
+2024-05-01T09:17:44.585Z [billing] INFO  scheduler tick jobs=12 scheduled=2 skipped=0
+2024-05-01T09:17:49.833Z [billing] INFO  req=61d29a route=POST /v1/payments status=201 dur_ms=81 user=u_5518
+2024-05-01T09:16:30.262Z [billing] DEBUG span export batch=32 traces=101 dropped=0
+2024-05-01T09:17:56.870Z [ingest-worker] ERROR request failed route=GET /v1/payments status=500 user=u_1041 trace=6345ce
+2024-05-01T09:17:30.117Z [ingest-worker] WARN  upstream retry attempt=3 upstream=orders-api status=502
+2024-05-01T09:19:58.891Z [billing] DEBUG span export batch=34 traces=182 dropped=0
+2024-05-01T09:20:18.523Z [ingest-worker] WARN  upstream retry attempt=2 upstream=orders-api status=502
+2024-05-01T09:18:18.041Z [auth-service] INFO  req=6de7f6 route=GET /v1/orders status=200 dur_ms=49 user=u_2210
+2024-05-01T09:24:10.849Z [db-proxy] INFO  scheduler tick jobs=12 scheduled=1 skipped=0
+2024-05-01T09:22:29.176Z [billing] INFO  cache hit keyspace=users hit=94% size_mb=175
+2024-05-01T09:17:34.501Z [ingest-worker] DEBUG query plan scan=index:orders_created_at rows=368 bufs=6
+2024-05-01T09:19:44.299Z [billing] WARN  upstream retry attempt=4 upstream=orders-api status=502
+2024-05-01T09:23:18.484Z [api-gateway] WARN  upstream retry attempt=4 upstream=orders-api status=502
+2024-05-01T09:23:49.284Z [api-gateway] WARN  upstream retry attempt=4 upstream=orders-api status=502
+2024-05-01T09:19:57.597Z [auth-service] ERROR request failed route=GET /v1/payments status=500 user=u_6027 trace=622f67
+2024-05-01T09:18:12.801Z [ingest-worker] INFO span export batch=17 traces=17 dropped=0
+2024-05-01T09:25:16.886Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=224 bufs=46
+2024-05-01T09:18:12.540Z [billing] INFO  cache hit keyspace=pricing hit=94% size_mb=156
+2024-05-01T09:19:39.503Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=197 bufs=77
+2024-05-01T09:18:12.961Z [auth-service] INFO  req=6efe5d route=GET /v1/orders/8310 status=200 dur_ms=21 user=u_4102
+2024-05-01T09:21:56.789Z [db-proxy] INFO  req=6bbb28 route=GET /v1/orders status=200 dur_ms=8 user=u_5518
+2024-05-01T09:21:31.514Z [auth-service] INFO  health probe ok host=ip-10-0-12-7 region=eu-west-1b uptime_s=8970
+2024-05-01T09:22:26.761Z [auth-service] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=5077
+2024-05-01T09:16:10.671Z [billing] DEBUG span export batch=28 traces=255 dropped=0
+2024-05-01T09:23:08.787Z [db-proxy] ERROR request failed route=GET /v1/payments status=500 user=u_2210 trace=65cf69
+2024-05-01T09:21:36.632Z [api-gateway] INFO  req=7014c4 route=GET /v1/orders status=200 dur_ms=26 user=u_6027
+2024-05-01T09:25:59.946Z [billing] DEBUG span export batch=0 traces=218 dropped=0
+2024-05-01T09:24:25.091Z [auth-service] INFO  req=609d44 route=POST /v1/payments status=201 dur_ms=193 user=u_3390
+2024-05-01T09:20:47.171Z [db-proxy] WARN  pool utilisation=0.73 max=200 active=180
+2024-05-01T09:18:10.842Z [api-gateway] INFO  req=62ca12 route=GET /v1/orders/8248 status=200 dur_ms=29 user=u_4102
+2024-05-01T09:25:44.324Z [auth-service] INFO  cache hit keyspace=pricing hit=92% size_mb=140
+2024-05-01T09:18:12.880Z [scheduler] INFO request failed route=GET /v1/payments status=500 user=u_3390 trace=6c17f5
+2024-05-01T09:16:16.757Z [db-proxy] DEBUG span export batch=39 traces=75 dropped=0
+2024-05-01T09:25:06.240Z [ingest-worker] INFO  req=5f86dd batch evt_20240501_0920 committed size=5000 (retry succeeded)
+2024-05-01T09:24:01.629Z [auth-service] WARN  pool utilisation=0.85 max=200 active=170
+2024-05-01T09:23:30.819Z [auth-service] DEBUG span export batch=1 traces=297 dropped=0
+2024-05-01T09:25:15.725Z [scheduler] DEBUG span export batch=35 traces=79 dropped=0
+2024-05-01T09:17:22.547Z [auth-service] INFO  req=67618c route=GET /v1/orders status=200 dur_ms=35 user=u_2210
+2024-05-01T09:19:25.850Z [ingest-worker] INFO  cache hit keyspace=orders hit=93% size_mb=160
+2024-05-01T09:24:15.078Z [billing] INFO  req=604077 route=GET /v1/orders/8249 status=200 dur_ms=35 user=u_4102
+2024-05-01T09:20:02.904Z [auth-service] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=5031
+2024-05-01T09:22:26.315Z [db-proxy] INFO  cache hit keyspace=users hit=97% size_mb=129
+2024-05-01T09:25:42.383Z [billing] DEBUG span export batch=26 traces=6 dropped=0
+2024-05-01T09:18:05.101Z [billing] DEBUG retry decision attempt=1 backoff_ms=357 jitter=26.9
+2024-05-01T09:14:34.261Z [api-gateway] DEBUG query plan scan=index:orders_created_at rows=138 bufs=54
+2024-05-01T09:24:02.489Z [billing] INFO  health probe ok host=ip-10-0-9-3 region=eu-west-1b uptime_s=9011
+2024-05-01T09:24:46.555Z [db-proxy] DEBUG retry decision attempt=2 backoff_ms=216 jitter=9.1
+2024-05-01T09:23:11.409Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=228 bufs=59
+2024-05-01T09:18:12.540Z [auth-service] INFO  req=605f66 route=GET /v1/orders/8692 status=200 dur_ms=31 user=u_3390
+2024-05-01T09:14:51.020Z [ingest-worker] INFO  req=64f6e0 route=GET /v1/orders/8463 status=200 dur_ms=32 user=u_5518
+2024-05-01T09:22:41.908Z [db-proxy] ERROR connection acquire timed out after 5000ms pool=orders waiters=11
+    at Pool.acquire (src/db/pool.ts:141:13)
+    at BillingRepository.write (src/billing/repo.ts:121:20)
+    caused by: PoolExhaustedError(active=200 idle=0 waiters=11)
+2024-05-01T09:25:57.018Z [db-proxy] DEBUG retry decision attempt=1 backoff_ms=419 jitter=5.9
+2024-05-01T09:22:48.875Z [scheduler] INFO  req=7033b3 route=GET /v1/orders status=200 dur_ms=42 user=u_3390
+2024-05-01T09:23:43.767Z [db-proxy] ERROR request failed route=GET /v1/payments status=500 user=u_6027 trace=6cd18f
+2024-05-01T09:21:29.589Z [billing] WARN  slow query 1420ms route=GET /v1/search user=u_5518 rows=958
+2024-05-01T09:25:33.796Z [ingest-worker] INFO  health probe ok host=ip-10-0-9-3 region=eu-west-1a uptime_s=8975
+2024-05-01T09:23:52.373Z [api-gateway] WARN  slow query 1420ms route=GET /v1/search user=u_5518 rows=1121
+2024-05-01T09:14:55.739Z [auth-service] INFO  req=6cf07e route=GET /v1/orders status=200 dur_ms=52 user=u_1041
+2024-05-01T09:22:58.960Z [billing] INFO  req=65b07a route=POST /v1/payments status=201 dur_ms=46 user=u_3390
+2024-05-01T09:20:15.640Z [ingest-worker] ERROR batch commit failed batch=evt_20240501_0920 size=5000
+    at IngestWriter.commit (src/ingest/writer.ts:176:9)
+    at Worker.tick (src/ingest/worker.ts:54:14)
+    caused by: TimeoutError(statement_timeout=30000ms)
+    retry scheduled in 2000ms (attempt 2/5)
+2024-05-01T09:17:08.901Z [db-proxy] INFO  cache hit keyspace=pricing hit=94% size_mb=134
+2024-05-01T09:15:15.211Z [api-gateway] INFO  req=649a13 route=POST /v1/payments status=201 dur_ms=138 user=u_2210
+2024-05-01T09:22:23.028Z [api-gateway] DEBUG retry decision attempt=2 backoff_ms=581 jitter=25.0
+2024-05-01T09:23:34.748Z [scheduler] WARN  slow query 1420ms route=GET /v1/search user=u_1041 rows=977
+2024-05-01T09:18:27.114Z [billing] INFO  scheduler tick jobs=12 scheduled=2 skipped=0
+2024-05-01T09:18:16.265Z [billing] WARN  upstream retry attempt=4 upstream=orders-api status=502
+2024-05-01T09:16:32.679Z [billing] DEBUG retry decision attempt=2 backoff_ms=302 jitter=32.7
+2024-05-01T09:17:12.851Z [auth-service] WARN  slow query 1420ms route=GET /v1/search user=u_5518 rows=994
+2024-05-01T09:24:38.055Z [api-gateway] ERROR request failed route=GET /v1/payments status=500 user=u_6027 trace=643d46
+2024-05-01T09:17:42.968Z [api-gateway] INFO  scheduler tick jobs=12 scheduled=1 skipped=1
+2024-05-01T09:18:12.621Z [billing] INFO  req=6383ac route=GET /v1/orders status=200 dur_ms=11 user=u_5518
+2024-05-01T09:15:19.413Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=167 bufs=46
+2024-05-01T09:21:53.211Z [auth-service] WARN  upstream retry attempt=1 upstream=orders-api status=502
+2024-05-01T09:15:35.568Z [billing] DEBUG retry decision attempt=1 backoff_ms=56 jitter=10.9
+2024-05-01T09:21:29.282Z [api-gateway] INFO  cache hit keyspace=pricing hit=96% size_mb=131
+2024-05-01T09:24:39.791Z [auth-service] DEBUG span export batch=36 traces=203 dropped=0
+2024-05-01T09:15:23.264Z [api-gateway] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1b uptime_s=8667
+2024-05-01T09:22:17.526Z [db-proxy] ERROR request failed route=GET /v1/payments status=500 user=u_5518 trace=60db22
+2024-05-01T09:14:22.937Z [scheduler] INFO  cache hit keyspace=orders hit=91% size_mb=174
+2024-05-01T09:19:21.927Z [scheduler] INFO  req=6896e2 route=GET /v1/orders status=200 dur_ms=66 user=u_1041
+2024-05-01T09:20:14.542Z [db-proxy] INFO  req=602188 route=POST /v1/payments status=201 dur_ms=176 user=u_4102
+2024-05-01T09:21:52.540Z [db-proxy] INFO  cache hit keyspace=orders hit=97% size_mb=176
+2024-05-01T09:16:26.297Z [auth-service] INFO  req=69129e route=GET /v1/orders/8199 status=200 dur_ms=15 user=u_6027
+2024-05-01T09:15:29.202Z [ingest-worker] INFO  scheduler tick jobs=12 scheduled=1 skipped=1
+2024-05-01T09:22:41.631Z [auth-service] INFO  req=6534be route=GET /v1/orders/8050 status=200 dur_ms=43 user=u_2210
+2024-05-01T09:14:43.766Z [api-gateway] INFO  req=62e901 route=GET /v1/orders status=200 dur_ms=52 user=u_2210
+2024-05-01T09:23:22.142Z [scheduler] INFO  health probe ok host=ip-10-0-4-11 region=eu-west-1a uptime_s=8411
+2024-05-01T09:18:36.935Z [scheduler] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=5122
+2024-05-01T09:17:59.975Z [billing] INFO  req=6f7a19 route=POST /v1/payments status=201 dur_ms=94 user=u_2210
+2024-05-01T09:18:06.223Z [ingest-worker] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=5121
+2024-05-01T09:22:07.555Z [api-gateway] INFO  health probe ok host=ip-10-0-9-4 region=eu-west-1a uptime_s=8471
+2024-05-01T09:24:06.345Z [ingest-worker] DEBUG span export batch=20 traces=259 dropped=0
+2024-05-01T09:21:10.707Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=103 bufs=37
+2024-05-01T09:15:12.103Z [scheduler] INFO  req=6553ad route=GET /v1/orders/8390 status=200 dur_ms=39 user=u_3390
+2024-05-01T09:17:34.965Z [api-gateway] INFO  health probe ok host=ip-10-0-9-3 region=eu-west-1b uptime_s=8227
+2024-05-01T09:23:42.444Z [ingest-worker] ERROR request failed route=GET /v1/payments status=500 user=u_2210 trace=66c6e1
+2024-05-01T09:17:34.328Z [billing] INFO  req=5fe3aa route=GET /v1/orders status=200 dur_ms=8 user=u_2210
+2024-05-01T09:22:02.686Z [auth-service] DEBUG span export batch=32 traces=235 dropped=0
+2024-05-01T09:17:35.096Z [auth-service] INFO  req=6364bd route=POST /v1/payments status=201 dur_ms=237 user=u_2210
+2024-05-01T09:17:38.111Z [auth-service] INFO  req=6e06e5 route=GET /v1/orders status=200 dur_ms=18 user=u_1041
+2024-05-01T09:22:49.240Z [db-proxy] INFO  health probe ok host=ip-10-0-9-3 region=eu-west-1a uptime_s=8498
+2024-05-01T09:15:28.232Z [db-proxy] DEBUG span export batch=35 traces=297 dropped=0
+2024-05-01T09:24:05.004Z [db-proxy] ERROR request failed route=GET /v1/payments status=500 user=u_6027 trace=6f9908
+2024-05-01T09:15:55.431Z [ingest-worker] DEBUG span export batch=3 traces=203 dropped=0
+2024-05-01T09:21:13.782Z [auth-service] INFO  req=662c36 route=GET /v1/orders/8282 status=200 dur_ms=23 user=u_4102
+2024-05-01T09:22:36.685Z [auth-service] WARN  pool utilisation=0.88 max=200 active=148
+2024-05-01T09:21:26.307Z [api-gateway] INFO  req=65ee58 route=GET /v1/orders/8127 status=200 dur_ms=11 user=u_1041
+2024-05-01T09:20:50.564Z [auth-service] INFO  health probe ok host=ip-10-0-12-7 region=eu-west-1a uptime_s=8452
+2024-05-01T09:24:26.998Z [auth-service] INFO  scheduler tick jobs=12 scheduled=1 skipped=2
+2024-05-01T09:24:23.197Z [billing] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4312
+2024-05-01T09:25:41.819Z [ingest-worker] DEBUG retry decision attempt=1 backoff_ms=260 jitter=23.3
+2024-05-01T09:18:32.592Z [scheduler] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1b uptime_s=8842
+2024-05-01T09:21:19.334Z [db-proxy] INFO  cache hit keyspace=orders hit=91% size_mb=158
+2024-05-01T09:18:55.013Z [scheduler] DEBUG query plan scan=index:orders_created_at rows=353 bufs=81
+2024-05-01T09:24:47.635Z [api-gateway] DEBUG span export batch=16 traces=109 dropped=0
+2024-05-01T09:22:57.199Z [db-proxy] INFO  cache hit keyspace=pricing hit=93% size_mb=134
+2024-05-01T09:20:24.765Z [api-gateway] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4070
+2024-05-01T09:18:23.323Z [billing] INFO  cache hit keyspace=pricing hit=97% size_mb=160
+2024-05-01T09:14:53.641Z [ingest-worker] INFO  scheduler tick jobs=12 scheduled=2 skipped=1
+2024-05-01T09:18:47.143Z [api-gateway] INFO  cache hit keyspace=pricing hit=98% size_mb=147
+2024-05-01T09:18:12.801Z [api-gateway] INFO retry decision attempt=2 backoff_ms=23 jitter=29.0
+2024-05-01T09:18:17.739Z [api-gateway] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4608
+2024-05-01T09:20:43.115Z [billing] DEBUG query plan scan=index:orders_created_at rows=386 bufs=41
+2024-05-01T09:18:18.041Z [ingest-worker] INFO  scheduler tick jobs=12 scheduled=0 skipped=1
+2024-05-01T09:18:24.400Z [ingest-worker] DEBUG span export batch=23 traces=194 dropped=0
+2024-05-01T09:21:20.227Z [api-gateway] INFO  req=628c34 route=POST /v1/payments status=201 dur_ms=48 user=u_2210
+2024-05-01T09:14:46.603Z [scheduler] DEBUG query plan scan=index:orders_created_at rows=185 bufs=36
+2024-05-01T09:24:15.928Z [scheduler] WARN  pool utilisation=0.71 max=200 active=170
+2024-05-01T09:18:36.219Z [billing] INFO  req=6bda17 route=GET /v1/orders status=200 dur_ms=55 user=u_4102
+2024-05-01T09:17:21.899Z [ingest-worker] INFO  cache hit keyspace=pricing hit=93% size_mb=146
+2024-05-01T09:14:18.731Z [api-gateway] DEBUG query plan scan=index:orders_created_at rows=275 bufs=16
+2024-05-01T09:16:09.023Z [scheduler] DEBUG span export batch=12 traces=26 dropped=0
+2024-05-01T09:17:54.011Z [billing] INFO  req=6d0f6d route=GET /v1/orders/8218 status=200 dur_ms=43 user=u_1041
+2024-05-01T09:24:01.394Z [scheduler] ERROR request failed route=GET /v1/payments status=500 user=u_5518 trace=5fc4bb
+2024-05-01T09:25:47.214Z [api-gateway] INFO  cache hit keyspace=users hit=94% size_mb=173
+2024-05-01T09:25:33.796Z [scheduler] DEBUG retry decision attempt=1 backoff_ms=799 jitter=34.0
+2024-05-01T09:19:42.517Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=260 bufs=68
+2024-05-01T09:15:03.486Z [db-proxy] INFO  cache hit keyspace=users hit=97% size_mb=169
+2024-05-01T09:21:10.242Z [ingest-worker] INFO  cache hit keyspace=pricing hit=93% size_mb=142
+2024-05-01T09:18:12.961Z [billing] INFO  health probe ok host=ip-10-0-9-4 region=eu-west-1a uptime_s=9049
+2024-05-01T09:18:20.746Z [api-gateway] ERROR request failed route=GET /v1/payments status=500 user=u_6027 trace=67dd48
+2024-05-01T09:18:12.871Z [auth-service] INFO  cache hit keyspace=users hit=96% size_mb=129
+2024-05-01T09:25:04.480Z [api-gateway] INFO  req=5f48ff downstream healthy upstream=orders-api latency_p95=38ms
+2024-05-01T09:22:28.190Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=245 bufs=80
+WARN  collector gap: 42 events dropped between 09:19:02.114 and 09:19:03.007
+2024-05-01T09:23:17.968Z [ingest-worker] WARN  upstream retry attempt=2 upstream=orders-api status=502
+2024-05-01T09:20:38.203Z [billing] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4202
+2024-05-01T09:15:41.072Z [auth-service] INFO  req=6a85d2 route=GET /v1/orders/8388 status=200 dur_ms=10 user=u_1041
+2024-05-01T09:17:51.271Z [auth-service] WARN  pool utilisation=0.92 max=200 active=176
+2024-05-01T09:20:00.286Z [api-gateway] INFO  req=626d45 route=POST /v1/payments status=201 dur_ms=75 user=u_6027
+2024-05-01T09:22:43.964Z [api-gateway] DEBUG query plan scan=index:orders_created_at rows=341 bufs=21
+2024-05-01T09:25:55.135Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=219 bufs=31
+2024-05-01T09:19:36.445Z [ingest-worker] WARN  slow query 1420ms route=GET /v1/search user=u_4102 rows=1210
+2024-05-01T09:22:54.532Z [api-gateway] WARN  slow query 1420ms route=GET /v1/search user=u_5518 rows=1170
+2024-05-01T09:14:13.041Z [auth-service] INFO  req=6515cf route=GET /v1/orders status=200 dur_ms=57 user=u_3390
+2024-05-01T09:21:11.078Z [scheduler] INFO  req=641e57 route=GET /v1/orders status=200 dur_ms=61 user=u_3390
+2024-05-01T09:14:50.341Z [ingest-worker] DEBUG span export batch=22 traces=171 dropped=0
+2024-05-01T09:23:36.324Z [api-gateway] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4703
+2024-05-01T09:19:30.190Z [db-proxy] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4471
+2024-05-01T09:17:56.919Z [ingest-worker] INFO  req=6fd6e6 route=GET /v1/orders status=200 dur_ms=14 user=u_2210
+2024-05-01T09:23:16.791Z [ingest-worker] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=5148
+2024-05-01T09:22:41.728Z [auth-service] DEBUG retry decision attempt=1 backoff_ms=670 jitter=3.4
+2024-05-01T09:24:25.547Z [billing] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1b uptime_s=8687
+2024-05-01T09:21:21.028Z [auth-service] INFO  req=6ac3b0 route=GET /v1/orders status=200 dur_ms=63 user=u_2210
+2024-05-01T09:18:12.621Z [scheduler] INFO  cache hit keyspace=orders hit=97% size_mb=149
+2024-05-01T09:24:13.838Z [ingest-worker] INFO  cache hit keyspace=orders hit=91% size_mb=148
+2024-05-01T09:14:42.918Z [billing] INFO  scheduler tick jobs=12 scheduled=1 skipped=0
+2024-05-01T09:19:15.819Z [scheduler] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4949
+2024-05-01T09:16:40.086Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=71 bufs=21
+2024-05-01T09:21:25.623Z [scheduler] INFO  req=67fc37 route=GET /v1/orders/8654 status=200 dur_ms=10 user=u_3390
+2024-05-01T09:19:21.411Z [api-gateway] INFO  health probe ok host=ip-10-0-12-7 region=eu-west-1b uptime_s=8728
+2024-05-01T09:14:48.501Z [scheduler] DEBUG span export batch=20 traces=148 dropped=0
+2024-05-01T09:22:30.104Z [db-proxy] WARN  pool utilisation=0.77 max=200 active=177
+2024-05-01T09:17:51.571Z [scheduler] INFO  req=69cc38 route=GET /v1/orders/8005 status=200 dur_ms=19 user=u_6027
+2024-05-01T09:25:14.846Z [billing] DEBUG retry decision attempt=1 backoff_ms=497 jitter=12.4
+2024-05-01T09:18:25.901Z [ingest-worker] DEBUG query plan scan=index:orders_created_at rows=321 bufs=77
+2024-05-01T09:16:02.784Z [db-proxy] INFO  req=6a2905 route=GET /v1/orders status=200 dur_ms=49 user=u_4102
+2024-05-01T09:22:24.675Z [ingest-worker] INFO  scheduler tick jobs=12 scheduled=2 skipped=0
+2024-05-01T09:25:41.984Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=159 bufs=18
+2024-05-01T09:17:18.177Z [db-proxy] WARN  slow query 1420ms route=GET /v1/search user=u_5518 rows=1279
+2024-05-01T09:20:12.608Z [api-gateway] INFO  req=6b5e5b route=GET /v1/orders status=200 dur_ms=19 user=u_1041
+2024-05-01T09:18:12.961Z [auth-service] INFO request failed route=GET /v1/payments status=500 user=u_5518 trace=6f1d4c
+2024-05-01T09:17:35.723Z [auth-service] DEBUG span export batch=33 traces=64 dropped=0
+2024-05-01T09:22:59.072Z [db-proxy] DEBUG span export batch=26 traces=275 dropped=0
+2024-05-01T09:17:30.064Z [scheduler] INFO  scheduler tick jobs=12 scheduled=1 skipped=1
+2024-05-01T09:17:07.388Z [billing] INFO  req=6daa18 route=GET /v1/orders status=200 dur_ms=17 user=u_6027
+2024-05-01T09:18:27.832Z [ingest-worker] INFO  req=63c18a route=POST /v1/payments status=201 dur_ms=81 user=u_2210
+2024-05-01T09:18:44.302Z [billing] ERROR charge failed order=ord_88213 amount=249.00 currency=EUR attempt=3/3
+    at BillingClient.charge (src/billing/client.ts:88:11)
+    at PaymentIntent.confirm (src/billing/intents.ts:203:7)
+    caused by: ECONNRESET upstream=payments-provider-1 region=eu-west-1a
+    idempotency_key=idem_7c31ba90
+2024-05-01T09:21:01.041Z [billing] ERROR request failed route=GET /v1/payments status=500 user=u_1041 trace=61b3ab
+2024-05-01T09:18:50.906Z [scheduler] DEBUG retry decision attempt=2 backoff_ms=794 jitter=6.0
+2024-05-01T09:14:48.319Z [auth-service] INFO  req=6d2e5c route=GET /v1/orders status=200 dur_ms=51 user=u_4102
+2024-05-01T09:25:03.934Z [scheduler] DEBUG query plan scan=index:orders_created_at rows=214 bufs=64
+2024-05-01T09:21:36.843Z [ingest-worker] INFO  req=69eb27 route=POST /v1/payments status=201 dur_ms=92 user=u_4102
+2024-05-01T09:23:20.632Z [db-proxy] WARN  pool utilisation=0.78 max=200 active=152
+2024-05-01T09:20:23.933Z [db-proxy] INFO  scheduler tick jobs=12 scheduled=0 skipped=2
+2024-05-01T09:17:36.317Z [db-proxy] WARN  slow query 1420ms route=GET /v1/search user=u_5518 rows=1298
+2024-05-01T09:22:03.723Z [ingest-worker] DEBUG query plan scan=index:orders_created_at rows=226 bufs=3
+2024-05-01T09:22:57.227Z [ingest-worker] INFO  req=69ad49 route=GET /v1/orders status=200 dur_ms=43 user=u_1041
+2024-05-01T09:14:56.794Z [auth-service] DEBUG span export batch=11 traces=262 dropped=0
+2024-05-01T09:16:05.749Z [auth-service] DEBUG retry decision attempt=1 backoff_ms=53 jitter=29.6
+2024-05-01T09:14:55.034Z [billing] DEBUG query plan scan=index:orders_created_at rows=149 bufs=31
+2024-05-01T09:18:45.973Z [api-gateway] INFO  req=6b207d route=GET /v1/orders/8814 status=200 dur_ms=44 user=u_4102
+2024-05-01T09:22:52.240Z [db-proxy] WARN  pool utilisation=0.76 max=200 active=156
+2024-05-01T09:26:00.000Z [scheduler] INFO  req=5fa5cc incident INC-4412 closed duration=11m47s errors=38 recovered=38
+2024-05-01T09:24:12.055Z [billing] ERROR charge failed order=ord_88341 amount=1180.00 currency=EUR attempt=3/3
+    at BillingClient.charge (src/billing/client.ts:88:11)
+    caused by: ECONNRESET upstream=payments-provider-1 region=eu-west-1a
+    idempotency_key=idem_31ff02ac
+2024-05-01T09:22:17.753Z [scheduler] INFO  req=67429d route=GET /v1/orders/8159 status=200 dur_ms=29 user=u_1041
+2024-05-01T09:16:58.730Z [db-proxy] DEBUG retry decision attempt=2 backoff_ms=728 jitter=24.6
+2024-05-01T09:15:51.466Z [scheduler] DEBUG query plan scan=index:orders_created_at rows=343 bufs=69
+2024-05-01T09:24:01.120Z [billing] INFO  scheduler tick jobs=12 scheduled=0 skipped=1
+2024-05-01T09:17:18.370Z [auth-service] DEBUG retry decision attempt=1 backoff_ms=626 jitter=37.7
+2024-05-01T09:23:42.294Z [db-proxy] DEBUG retry decision attempt=1 backoff_ms=563 jitter=10.1
+2024-05-01T09:14:03.868Z [auth-service] DEBUG retry decision attempt=1 backoff_ms=592 jitter=15.2
+2024-05-01T09:18:04.663Z [db-proxy] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=5057
+2024-05-01T09:22:40.208Z [billing] DEBUG retry decision attempt=2 backoff_ms=193 jitter=19.7
+2024-05-01T09:24:38.055Z [ingest-worker] DEBUG query plan scan=index:orders_created_at rows=262 bufs=47
+2024-05-01T09:21:04.589Z [api-gateway] WARN  slow query 1420ms route=GET /v1/search user=u_6027 rows=912
+2024-05-01T09:23:57.972Z [ingest-worker] ERROR request failed route=GET /v1/payments status=500 user=u_1041 trace=6307f0
+2024-05-01T09:21:06.851Z [ingest-worker] INFO  cache hit keyspace=pricing hit=98% size_mb=153
+2024-05-01T09:24:36.121Z [api-gateway] INFO  cache hit keyspace=orders hit=94% size_mb=168
+2024-05-01T09:25:47.178Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=46 bufs=44
+2024-05-01T09:15:09.418Z [scheduler] DEBUG query plan scan=index:orders_created_at rows=99 bufs=51
+2024-05-01T09:17:02.010Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=143 bufs=61
+2024-05-01T09:16:43.002Z [scheduler] INFO  req=6a47f4 route=GET /v1/orders status=200 dur_ms=64 user=u_4102
+2024-05-01T09:18:55.445Z [ingest-worker] DEBUG span export batch=19 traces=136 dropped=0
+2024-05-01T09:16:27.588Z [scheduler] INFO  req=664b25 route=POST /v1/payments status=201 dur_ms=140 user=u_6027
+2024-05-01T09:19:02.379Z [api-gateway] WARN  pool utilisation=0.92 max=200 active=157
+2024-05-01T09:14:48.380Z [scheduler] DEBUG retry decision attempt=2 backoff_ms=4 jitter=33.6
+2024-05-01T09:16:03.610Z [api-gateway] INFO  req=683a15 route=GET /v1/orders status=200 dur_ms=11 user=u_2210
+2024-05-01T09:25:29.636Z [scheduler] INFO  scheduler tick jobs=12 scheduled=1 skipped=0
+2024-05-01T09:18:28.110Z [api-gateway] INFO  health probe ok host=ip-10-0-9-3 region=eu-west-1a uptime_s=8822
+2024-05-01T09:25:22.543Z [auth-service] INFO  cache hit keyspace=pricing hit=92% size_mb=144
+2024-05-01T09:15:32.518Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=305 bufs=63
+2024-05-01T09:18:12.540Z [billing] INFO request failed route=GET /v1/payments status=500 user=u_5518 trace=607e55
+2024-05-01T09:19:48.337Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=99 bufs=48
+2024-05-01T09:14:30.661Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=115 bufs=18
+2024-05-01T09:23:32.504Z [billing] INFO  cache hit keyspace=orders hit=96% size_mb=158
+2024-05-01T09:24:47.877Z [scheduler] INFO  scheduler tick jobs=12 scheduled=0 skipped=0
+2024-05-01T09:21:55.355Z [auth-service] INFO  scheduler tick jobs=12 scheduled=0 skipped=0
+2024-05-01T09:23:47.906Z [db-proxy] INFO  req=6b7d4a route=GET /v1/orders/8532 status=200 dur_ms=25 user=u_5518
+2024-05-01T09:15:08.069Z [billing] DEBUG retry decision attempt=2 backoff_ms=396 jitter=36.0
+2024-05-01T09:23:57.343Z [billing] INFO  req=6a66e3 route=POST /v1/payments status=201 dur_ms=71 user=u_3390
+2024-05-01T09:22:34.502Z [api-gateway] INFO  req=6b9c39 route=GET /v1/orders/8220 status=200 dur_ms=16 user=u_2210
+2024-05-01T09:23:42.298Z [api-gateway] INFO  req=6ff5d5 route=GET /v1/orders status=200 dur_ms=56 user=u_5518
+2024-05-01T09:24:08.747Z [scheduler] WARN  upstream retry attempt=3 upstream=orders-api status=502
+2024-05-01T09:24:17.255Z [scheduler] ERROR request failed route=GET /v1/payments status=500 user=u_4102 trace=6156de
+2024-05-01T09:17:51.477Z [ingest-worker] DEBUG query plan scan=index:orders_created_at rows=142 bufs=79
+2024-05-01T09:23:45.028Z [api-gateway] DEBUG retry decision attempt=2 backoff_ms=166 jitter=3.0
+2024-05-01T09:14:03.019Z [db-proxy] INFO  cache hit keyspace=users hit=97% size_mb=176
+2024-05-01T09:18:19.220Z [db-proxy] ERROR request failed route=GET /v1/payments status=500 user=u_2210 trace=679f6a
+2024-05-01T09:18:50.454Z [db-proxy] WARN  slow query 1420ms route=GET /v1/search user=u_5518 rows=1285
+2024-05-01T09:20:26.317Z [ingest-worker] INFO  cache hit keyspace=pricing hit=94% size_mb=175
+2024-05-01T09:20:30.283Z [api-gateway] INFO  health probe ok host=ip-10-0-4-11 region=eu-west-1b uptime_s=8967
+2024-05-01T09:21:02.015Z [auth-service] WARN  token refresh storm client=web sockets=1420 rps=310
+    sample ids: 4b2f, 9ac1, d07e (rate limited to 60 rps per client)
+2024-05-01T09:23:55.723Z [db-proxy] INFO  health probe ok host=ip-10-0-12-7 region=eu-west-1b uptime_s=8476
+2024-05-01T09:17:02.010Z [api-gateway] DEBUG query plan scan=index:orders_created_at rows=120 bufs=65
+2024-05-01T09:15:07.012Z [ingest-worker] DEBUG query plan scan=index:orders_created_at rows=129 bufs=63
+2024-05-01T09:22:22.629Z [api-gateway] WARN  slow query 1420ms route=GET /v1/search user=u_2210 rows=1215
+2024-05-01T09:18:34.545Z [auth-service] DEBUG span export batch=6 traces=38 dropped=0
+2024-05-01T09:16:42.118Z [db-proxy] WARN  pool utilisation=0.82 max=200 active=164 idle=31 waiters=7
+    probe: p95 wait 41ms (threshold 25ms) — pool under pressure
+    hint: raise max_connections or shorten transaction scope
+2024-05-01T09:18:40.101Z [db-proxy] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4688
+2024-05-01T09:16:05.749Z [auth-service] INFO  cache hit keyspace=users hit=95% size_mb=170
+2024-05-01T09:18:42.926Z [scheduler] INFO  scheduler tick jobs=12 scheduled=2 skipped=0
+2024-05-01T09:25:21.176Z [api-gateway] DEBUG span export batch=34 traces=99 dropped=0
+2024-05-01T09:17:31.597Z [scheduler] INFO  req=624e56 route=GET /v1/orders/8134 status=200 dur_ms=28 user=u_2210
+2024-05-01T09:21:45.677Z [db-proxy] INFO  req=668903 route=GET /v1/orders status=200 dur_ms=11 user=u_6027
+2024-05-01T09:20:17.838Z [ingest-worker] WARN  pool utilisation=0.92 max=200 active=187
+2024-05-01T09:16:03.328Z [api-gateway] DEBUG query plan scan=index:orders_created_at rows=56 bufs=16
+2024-05-01T09:17:38.385Z [api-gateway] DEBUG retry decision attempt=1 backoff_ms=666 jitter=28.9
+2024-05-01T09:23:42.444Z [scheduler] DEBUG span export batch=28 traces=246 dropped=0
+2024-05-01T09:20:49.122Z [db-proxy] ERROR request failed route=GET /v1/payments status=500 user=u_4102 trace=6aa4c1
+2024-05-01T09:24:59.809Z [ingest-worker] WARN  slow query 1420ms route=GET /v1/search user=u_1041 rows=1236
+2024-05-01T09:14:50.061Z [billing] DEBUG query plan scan=index:orders_created_at rows=199 bufs=87
+2024-05-01T09:24:05.004Z [db-proxy] INFO  req=6fb7f7 route=POST /v1/payments status=201 dur_ms=195 user=u_6027
+2024-05-01T09:25:11.176Z [scheduler] DEBUG query plan scan=index:orders_created_at rows=37 bufs=35
+2024-05-01T09:21:17.600Z [scheduler] INFO  req=66e5d0 route=GET /v1/orders/8374 status=200 dur_ms=5 user=u_6027
+2024-05-01T09:24:32.666Z [api-gateway] DEBUG query plan scan=index:orders_created_at rows=89 bufs=8
+2024-05-01T09:16:34.808Z [scheduler] INFO  req=64d7f1 route=GET /v1/orders/8285 status=200 dur_ms=12 user=u_1041
+2024-05-01T09:22:10.155Z [ingest-worker] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4196
+2024-05-01T09:17:11.959Z [auth-service] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4661
+2024-05-01T09:17:09.789Z [scheduler] ERROR request failed route=GET /v1/payments status=500 user=u_2210 trace=6dc907
+2024-05-01T09:16:31.206Z [api-gateway] INFO  req=6cb2a0 route=GET /v1/orders status=200 dur_ms=38 user=u_2210
+2024-05-01T09:22:09.184Z [ingest-worker] INFO  cache hit keyspace=pricing hit=92% size_mb=153
+2024-05-01T09:15:51.885Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=91 bufs=41
+2024-05-01T09:25:36.628Z [db-proxy] DEBUG retry decision attempt=2 backoff_ms=484 jitter=31.5
+2024-05-01T09:24:30.052Z [billing] DEBUG span export batch=39 traces=50 dropped=0
+2024-05-01T09:25:57.173Z [db-proxy] INFO  req=6723ae route=POST /v1/payments status=201 dur_ms=109 user=u_5518
+2024-05-01T09:24:41.265Z [scheduler] DEBUG retry decision attempt=1 backoff_ms=344 jitter=3.6
+2024-05-01T09:16:47.324Z [ingest-worker] DEBUG span export batch=33 traces=165 dropped=0
+2024-05-01T09:20:02.351Z [auth-service] ERROR request failed route=GET /v1/payments status=500 user=u_2210 trace=6ea190
+2024-05-01T09:17:44.253Z [db-proxy] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4789
+2024-05-01T09:17:51.676Z [billing] INFO  req=69507c route=GET /v1/orders/8105 status=200 dur_ms=13 user=u_2210
+2024-05-01T09:17:22.043Z [api-gateway] DEBUG span export batch=30 traces=197 dropped=0
+2024-05-01T09:14:34.900Z [scheduler] DEBUG query plan scan=index:orders_created_at rows=106 bufs=80
+2024-05-01T09:17:58.851Z [ingest-worker] INFO  req=6d6c3a route=GET /v1/orders status=200 dur_ms=60 user=u_4102
+2024-05-01T09:15:12.143Z [scheduler] INFO  cache hit keyspace=users hit=91% size_mb=131
+2024-05-01T09:18:21.733Z [billing] ERROR request failed route=GET /v1/payments status=500 user=u_6027 trace=6f3c3b
+2024-05-01T09:16:33.017Z [scheduler] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1a uptime_s=8758
+2024-05-01T09:14:56.849Z [scheduler] DEBUG span export batch=5 traces=194 dropped=0
+2024-05-01T09:18:05.399Z [scheduler] DEBUG retry decision attempt=1 backoff_ms=4 jitter=16.7
+2024-05-01T09:15:05.683Z [db-proxy] INFO  req=6e44c3 route=GET /v1/orders/8639 status=200 dur_ms=14 user=u_2210
+2024-05-01T09:14:48.319Z [api-gateway] DEBUG retry decision attempt=1 backoff_ms=550 jitter=25.3
+2024-05-01T09:22:40.208Z [api-gateway] INFO  req=685904 route=GET /v1/orders status=200 dur_ms=34 user=u_2210
+2024-05-01T09:15:44.365Z [api-gateway] DEBUG query plan scan=index:orders_created_at rows=393 bufs=7
+2024-05-01T09:17:51.356Z [db-proxy] INFO  req=7052a2 route=GET /v1/orders status=200 dur_ms=65 user=u_6027
+2024-05-01T09:23:44.970Z [db-proxy] WARN  upstream retry attempt=4 upstream=orders-api status=502
+2024-05-01T09:23:32.303Z [db-proxy] DEBUG span export batch=38 traces=76 dropped=0
+2024-05-01T09:18:46.055Z [scheduler] INFO  req=611900 route=GET /v1/orders status=200 dur_ms=56 user=u_5518
+2024-05-01T09:16:07.733Z [scheduler] DEBUG retry decision attempt=2 backoff_ms=300 jitter=15.2
+2024-05-01T09:19:49.968Z [scheduler] DEBUG retry decision attempt=1 backoff_ms=492 jitter=34.9
+2024-05-01T09:21:10.044Z [api-gateway] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4582
+2024-05-01T09:22:41.981Z [db-proxy] INFO  health probe ok host=ip-10-0-4-11 region=eu-west-1a uptime_s=8681
+2024-05-01T09:17:18.370Z [api-gateway] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1a uptime_s=8965
+2024-05-01T09:19:59.874Z [api-gateway] WARN  pool utilisation=0.88 max=200 active=148
+2024-05-01T09:20:26.783Z [api-gateway] INFO  req=68f3af route=GET /v1/orders/8889 status=200 dur_ms=25 user=u_6027
+2024-05-01T09:20:24.182Z [billing] INFO  req=6175cd route=GET /v1/orders/8353 status=200 dur_ms=23 user=u_3390
+2024-05-01T09:21:43.644Z [ingest-worker] WARN  pool utilisation=0.81 max=200 active=182
+2024-05-01T09:17:14.086Z [ingest-worker] WARN  upstream retry attempt=3 upstream=orders-api status=502
+2024-05-01T09:14:35.952Z [ingest-worker] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1a uptime_s=8889
+2024-05-01T09:18:15.427Z [billing] INFO  req=6b018e route=GET /v1/orders/8686 status=200 dur_ms=32 user=u_6027
+2024-05-01T09:24:30.050Z [api-gateway] WARN  pool utilisation=0.80 max=200 active=188
+2024-05-01T09:14:38.431Z [ingest-worker] DEBUG query plan scan=index:orders_created_at rows=153 bufs=1
+2024-05-01T09:14:03.642Z [billing] DEBUG span export batch=6 traces=28 dropped=0
+2024-05-01T09:14:26.057Z [billing] INFO  req=6e63b2 route=GET /v1/orders status=200 dur_ms=8 user=u_5518
+2024-05-01T09:25:58.109Z [billing] DEBUG retry decision attempt=2 backoff_ms=43 jitter=23.9
+2024-05-01T09:21:20.270Z [billing] DEBUG span export batch=23 traces=152 dropped=0
+2024-05-01T09:18:12.621Z [auth-service] INFO  pool utilisation=0.84 max=200 active=171
+2024-05-01T09:20:16.655Z [auth-service] DEBUG retry decision attempt=1 backoff_ms=86 jitter=0.0
+2024-05-01T09:24:06.550Z [auth-service] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=5155
+2024-05-01T09:18:12.961Z [api-gateway] INFO span export batch=37 traces=122 dropped=0
+2024-05-01T09:24:51.459Z [scheduler] WARN  upstream retry attempt=4 upstream=orders-api status=502
+2024-05-01T09:18:08.494Z [scheduler] DEBUG query plan scan=index:orders_created_at rows=304 bufs=50
+2024-05-01T09:17:15.483Z [api-gateway] WARN  pool utilisation=0.86 max=200 active=157
+2024-05-01T09:16:59.610Z [api-gateway] DEBUG retry decision attempt=1 backoff_ms=217 jitter=17.2
+2024-05-01T09:19:44.888Z [db-proxy] WARN  pool utilisation=0.72 max=200 active=189
+2024-05-01T09:14:06.914Z [auth-service] INFO  req=67807b route=GET /v1/orders status=200 dur_ms=18 user=u_4102
+2024-05-01T09:16:22.817Z [api-gateway] DEBUG retry decision attempt=2 backoff_ms=511 jitter=12.3
+2024-05-01T09:24:57.948Z [db-proxy] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4068
+2024-05-01T09:18:30.800Z [ingest-worker] INFO  req=600299 route=POST /v1/payments status=201 dur_ms=220 user=u_4102
+2024-05-01T09:18:12.710Z [auth-service] INFO query plan scan=index:orders_created_at rows=47 bufs=83
+2024-05-01T09:14:21.101Z [billing] DEBUG retry decision attempt=1 backoff_ms=715 jitter=3.7
+2024-05-01T09:17:08.487Z [billing] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4229
+2024-05-01T09:15:30.721Z [scheduler] INFO  req=63a29b route=GET /v1/orders/8211 status=200 dur_ms=6 user=u_2210
+2024-05-01T09:20:20.736Z [billing] INFO  req=6b3f6c route=POST /v1/payments status=201 dur_ms=168 user=u_5518
+2024-05-01T09:20:58.982Z [billing] DEBUG retry decision attempt=2 backoff_ms=736 jitter=6.8
+2024-05-01T09:19:12.125Z [scheduler] WARN  slow query 1420ms route=GET /v1/search user=u_1041 rows=1188
+2024-05-01T09:24:57.652Z [api-gateway] WARN  slow query 1420ms route=GET /v1/search user=u_5518 rows=1172
+2024-05-01T09:22:31.478Z [db-proxy] INFO  cache hit keyspace=pricing hit=95% size_mb=132
+2024-05-01T09:21:36.843Z [scheduler] INFO  cache hit keyspace=pricing hit=97% size_mb=160
+2024-05-01T09:25:38.943Z [db-proxy] DEBUG retry decision attempt=1 backoff_ms=62 jitter=26.6
+2024-05-01T09:22:24.326Z [ingest-worker] DEBUG retry decision attempt=1 backoff_ms=786 jitter=1.2
+2024-05-01T09:23:51.283Z [auth-service] ERROR request failed route=GET /v1/payments status=500 user=u_2210 trace=6f5b2a
+2024-05-01T09:18:04.663Z [api-gateway] DEBUG retry decision attempt=1 backoff_ms=716 jitter=13.8
+2024-05-01T09:15:23.423Z [billing] DEBUG span export batch=18 traces=48 dropped=0
+2024-05-01T09:25:37.186Z [db-proxy] DEBUG span export batch=37 traces=108 dropped=0
+2024-05-01T09:15:00.257Z [scheduler] INFO  health probe ok host=ip-10-0-12-7 region=eu-west-1b uptime_s=8247
+2024-05-01T09:24:50.754Z [api-gateway] INFO  scheduler tick jobs=12 scheduled=2 skipped=0
+2024-05-01T09:18:06.313Z [auth-service] WARN  pool utilisation=0.75 max=200 active=177
+2024-05-01T09:25:29.636Z [db-proxy] WARN  slow query 1420ms route=GET /v1/search user=u_4102 rows=1015
+2024-05-01T09:25:41.477Z [auth-service] DEBUG retry decision attempt=2 backoff_ms=181 jitter=32.1
+2024-05-01T09:17:41.251Z [auth-service] INFO  health probe ok host=ip-10-0-9-4 region=eu-west-1b uptime_s=8261
+2024-05-01T09:19:12.053Z [scheduler] INFO  scheduler tick jobs=12 scheduled=2 skipped=1
+2024-05-01T09:23:08.947Z [db-proxy] DEBUG span export batch=6 traces=168 dropped=0
+2024-05-01T09:17:55.831Z [ingest-worker] INFO  cache hit keyspace=pricing hit=91% size_mb=139
+2024-05-01T09:15:01.580Z [db-proxy] INFO  scheduler tick jobs=12 scheduled=1 skipped=0
+2024-05-01T09:21:30.449Z [ingest-worker] WARN  pool utilisation=0.93 max=200 active=153
+2024-05-01T09:17:03.565Z [billing] WARN  slow query 1420ms route=GET /v1/search user=u_3390 rows=1129
+2024-05-01T09:25:37.186Z [auth-service] INFO  health probe ok host=ip-10-0-9-3 region=eu-west-1a uptime_s=8846
+2024-05-01T09:23:40.467Z [ingest-worker] WARN  slow query 1420ms route=GET /v1/search user=u_3390 rows=1011
+2024-05-01T09:14:54.574Z [scheduler] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1b uptime_s=8634
+2024-05-01T09:20:34.655Z [auth-service] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4072
+2024-05-01T09:14:22.937Z [billing] DEBUG retry decision attempt=2 backoff_ms=108 jitter=5.0
+2024-05-01T09:22:43.172Z [api-gateway] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4722
+2024-05-01T09:15:11.579Z [db-proxy] INFO  scheduler tick jobs=12 scheduled=1 skipped=1
+2024-05-01T09:15:42.532Z [ingest-worker] INFO  cache hit keyspace=orders hit=90% size_mb=139
+2024-05-01T09:17:17.224Z [api-gateway] WARN  pool utilisation=0.84 max=200 active=178
+2024-05-01T09:14:56.232Z [scheduler] INFO  req=6d4d4b route=POST /v1/payments status=201 dur_ms=105 user=u_4102
+2024-05-01T09:16:50.328Z [api-gateway] DEBUG retry decision attempt=1 backoff_ms=80 jitter=39.8
+2024-05-01T09:17:06.571Z [billing] DEBUG span export batch=37 traces=6 dropped=0
+2024-05-01T09:22:58.621Z [auth-service] DEBUG retry decision attempt=2 backoff_ms=796 jitter=37.5
+2024-05-01T09:21:30.496Z [db-proxy] INFO  cache hit keyspace=pricing hit=95% size_mb=172
+2024-05-01T09:17:39.725Z [ingest-worker] DEBUG query plan scan=index:orders_created_at rows=235 bufs=49
+2024-05-01T09:25:05.900Z [billing] INFO  req=5f67ee provider circuit closed provider=payments-provider-1
+2024-05-01T09:15:31.602Z [ingest-worker] INFO  req=6e82a1 route=GET /v1/orders/8777 status=200 dur_ms=15 user=u_6027
+2024-05-01T09:19:16.837Z [scheduler] DEBUG retry decision attempt=1 backoff_ms=577 jitter=37.6
+2024-05-01T09:22:48.682Z [ingest-worker] INFO  cache hit keyspace=pricing hit=91% size_mb=123
+2024-05-01T09:17:43.405Z [scheduler] WARN  slow query 1420ms route=GET /v1/search user=u_1041 rows=1080
+2024-05-01T09:24:38.140Z [billing] DEBUG query plan scan=index:orders_created_at rows=70 bufs=23
+2024-05-01T09:25:35.894Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=278 bufs=19
+2024-05-01T09:17:30.004Z [db-proxy] ERROR connection acquire timed out after 5000ms pool=orders waiters=23
+    at Pool.acquire (src/db/pool.ts:141:13)
+    at OrderRepository.findOne (src/orders/repo.ts:62:28)
+    at OrderService.reserve (src/orders/service.ts:214:19)
+    caused by: PoolExhaustedError(active=200 idle=0 waiters=23)
+2024-05-01T09:23:54.824Z [db-proxy] ERROR request failed route=GET /v1/payments status=500 user=u_5518 trace=698e5a
+2024-05-01T09:15:36.940Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=183 bufs=89
+2024-05-01T09:17:55.831Z [auth-service] DEBUG retry decision attempt=2 backoff_ms=256 jitter=20.3
+2024-05-01T09:20:58.578Z [billing] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4321
+2024-05-01T09:18:12.621Z [db-proxy] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1a uptime_s=8672
+INFO  log rotated: incident-2024-05-01.0.log -> incident-2024-05-01.1.log
+2024-05-01T09:14:03.574Z [auth-service] INFO  req=63e079 route=POST /v1/payments status=201 dur_ms=218 user=u_6027
+2024-05-01T09:19:49.968Z [scheduler] DEBUG retry decision attempt=1 backoff_ms=199 jitter=1.4
+2024-05-01T09:16:35.791Z [auth-service] INFO  cache hit keyspace=pricing hit=95% size_mb=178
+2024-05-01T09:18:12.801Z [api-gateway] INFO  req=6a0a16 route=GET /v1/orders/8142 status=200 dur_ms=13 user=u_6027
+2024-05-01T09:25:18.517Z [auth-service] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1a uptime_s=8971
+2024-05-01T09:19:42.822Z [db-proxy] WARN  pool utilisation=0.71 max=200 active=160
+2024-05-01T09:20:40.209Z [api-gateway] INFO  scheduler tick jobs=12 scheduled=1 skipped=1
+2024-05-01T09:21:55.396Z [api-gateway] INFO  req=67be59 route=POST /v1/payments status=201 dur_ms=164 user=u_6027
+2024-05-01T09:25:13.347Z [ingest-worker] INFO  health probe ok host=ip-10-0-9-4 region=eu-west-1a uptime_s=8563
+2024-05-01T09:18:05.771Z [api-gateway] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api
+    at ProxyHandler.forward (src/gateway/proxy.ts:97:22)
+    at Layer.handle (node_modules/router/lib/layer.js:95:5)
+    caused by: read ECONNRESET (socket hang up after 5000ms)
+2024-05-01T09:24:01.045Z [api-gateway] INFO  req=6877f3 route=GET /v1/orders status=200 dur_ms=40 user=u_2210
+2024-05-01T09:17:13.249Z [api-gateway] WARN  slow query 1420ms route=GET /v1/search user=u_6027 rows=1123
+2024-05-01T09:24:21.798Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=374 bufs=79
+2024-05-01T09:24:32.545Z [ingest-worker] INFO  req=647b24 route=GET /v1/orders status=200 dur_ms=26 user=u_2210
+2024-05-01T09:22:43.964Z [db-proxy] INFO  req=60bc33 route=GET /v1/orders status=200 dur_ms=44 user=u_4102
+2024-05-01T09:20:45.509Z [api-gateway] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4232
+2024-05-01T09:21:52.220Z [ingest-worker] DEBUG retry decision attempt=1 backoff_ms=642 jitter=10.6
+2024-05-01T09:17:34.906Z [api-gateway] WARN  slow query 1420ms route=GET /v1/search user=u_4102 rows=1174
+2024-05-01T09:14:45.267Z [auth-service] INFO  scheduler tick jobs=12 scheduled=2 skipped=0
+2024-05-01T09:14:36.700Z [billing] DEBUG query plan scan=index:orders_created_at rows=198 bufs=35
+2024-05-01T09:19:27.909Z [auth-service] INFO  health probe ok host=ip-10-0-12-7 region=eu-west-1b uptime_s=8937
+2024-05-01T09:18:31.910Z [scheduler] INFO  req=681b26 route=GET /v1/orders status=200 dur_ms=31 user=u_5518
+2024-05-01T09:18:21.906Z [auth-service] DEBUG retry decision attempt=1 backoff_ms=108 jitter=29.3
+2024-05-01T09:15:45.837Z [billing] INFO  req=6d8b29 route=GET /v1/orders/8869 status=200 dur_ms=33 user=u_5518
+2024-05-01T09:24:20.800Z [ingest-worker] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4378
+2024-05-01T09:18:12.710Z [scheduler] INFO  cache hit keyspace=users hit=97% size_mb=168
+2024-05-01T09:16:30.609Z [db-proxy] DEBUG span export batch=19 traces=21 dropped=0
+2024-05-01T09:17:01.287Z [auth-service] ERROR request failed route=GET /v1/payments status=500 user=u_4102 trace=65729c
+2024-05-01T09:21:22.299Z [api-gateway] INFO  req=696f6b route=POST /v1/payments status=201 dur_ms=161 user=u_4102
+2024-05-01T09:16:34.896Z [scheduler] DEBUG retry decision attempt=1 backoff_ms=372 jitter=19.9
+2024-05-01T09:19:32.421Z [ingest-worker] INFO  req=645c35 route=GET /v1/orders status=200 dur_ms=14 user=u_1041
+2024-05-01T09:21:40.746Z [ingest-worker] ERROR request failed route=GET /v1/payments status=500 user=u_2210 trace=666a14
+2024-05-01T09:18:12.880Z [db-proxy] INFO query plan scan=index:orders_created_at rows=287 bufs=79
+2024-05-01T09:15:02.651Z [ingest-worker] INFO  req=60fa11 route=GET /v1/orders/8375 status=200 dur_ms=28 user=u_5518
+2024-05-01T09:18:02.904Z [ingest-worker] INFO  req=68b5d1 route=GET /v1/orders status=200 dur_ms=21 user=u_4102
+2024-05-01T09:14:03.703Z [db-proxy] INFO  req=68d4c0 route=GET /v1/orders/8604 status=200 dur_ms=40 user=u_2210
+2024-05-01T09:19:49.946Z [auth-service] INFO  req=6ae29f route=GET /v1/orders/8466 status=200 dur_ms=40 user=u_2210
+2024-05-01T09:19:44.177Z [db-proxy] INFO  req=6c74c2 route=GET /v1/orders status=200 dur_ms=63 user=u_6027
+2024-05-01T09:23:15.942Z [ingest-worker] INFO  scheduler tick jobs=12 scheduled=1 skipped=0
+2024-05-01T09:19:05.702Z [billing] WARN  pool utilisation=0.80 max=200 active=176
+2024-05-01T09:15:52.326Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=284 bufs=89
+2024-05-01T09:16:13.340Z [api-gateway] INFO  health probe ok host=ip-10-0-9-3 region=eu-west-1b uptime_s=8992
+2024-05-01T09:22:21.882Z [auth-service] INFO  scheduler tick jobs=12 scheduled=1 skipped=0
+2024-05-01T09:24:37.842Z [db-proxy] INFO  req=6e25d4 route=GET /v1/orders/8653 status=200 dur_ms=16 user=u_6027
+2024-05-01T09:14:00.106Z [ingest-worker] DEBUG query plan scan=index:orders_created_at rows=395 bufs=84
+2024-05-01T09:25:57.170Z [db-proxy] DEBUG span export batch=34 traces=158 dropped=0
+2024-05-01T09:21:05.918Z [api-gateway] INFO  cache hit keyspace=pricing hit=94% size_mb=126
+2024-05-01T09:18:46.264Z [auth-service] INFO  cache hit keyspace=users hit=94% size_mb=132
+2024-05-01T09:18:06.963Z [billing] DEBUG query plan scan=index:orders_created_at rows=340 bufs=51
+2024-05-01T09:20:29.274Z [api-gateway] WARN  slow query 1420ms route=GET /v1/search user=u_5518 rows=1085
+2024-05-01T09:21:08.536Z [auth-service] WARN  slow query 1420ms route=GET /v1/search user=u_2210 rows=1216
+2024-05-01T09:23:17.259Z [billing] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=4211
+2024-05-01T09:15:15.659Z [api-gateway] DEBUG retry decision attempt=2 backoff_ms=313 jitter=2.8
+2024-05-01T09:25:04.120Z [db-proxy] INFO  req=5f2a10 pool recovered active=42 idle=158 waiters=0
+2024-05-01T09:21:06.075Z [api-gateway] DEBUG span export batch=9 traces=278 dropped=0
+2024-05-01T09:20:06.310Z [auth-service] ERROR request failed route=GET /v1/payments status=500 user=u_5518 trace=6ec07f
+2024-05-01T09:22:46.777Z [api-gateway] ERROR request failed route=GET /v1/payments status=500 user=u_6027 trace=65918b
+2024-05-01T09:21:21.050Z [ingest-worker] WARN  pool utilisation=0.74 max=200 active=168
+2024-05-01T09:24:47.223Z [scheduler] INFO  req=69318d route=GET /v1/orders/8067 status=200 dur_ms=28 user=u_3390
+2024-05-01T09:20:06.545Z [db-proxy] INFO  cache hit keyspace=orders hit=92% size_mb=158
+2024-05-01T09:25:17.370Z [ingest-worker] DEBUG retry decision attempt=2 backoff_ms=724 jitter=9.3
+2024-05-01T09:20:02.965Z [scheduler] INFO  req=64b902 route=GET /v1/orders/8144 status=200 dur_ms=13 user=u_1041
+2024-05-01T09:16:01.963Z [api-gateway] DEBUG query plan scan=index:orders_created_at rows=238 bufs=2
+2024-05-01T09:15:37.235Z [api-gateway] DEBUG query plan scan=index:orders_created_at rows=64 bufs=86
+2024-05-01T09:19:22.911Z [api-gateway] INFO  req=63ff68 route=POST /v1/payments status=201 dur_ms=197 user=u_3390
+2024-05-01T09:15:16.308Z [auth-service] DEBUG span export batch=23 traces=26 dropped=0
+2024-05-01T09:25:08.336Z [auth-service] INFO  req=61f189 route=POST /v1/payments status=201 dur_ms=58 user=u_3390
+2024-05-01T09:14:24.141Z [scheduler] INFO  req=621078 route=POST /v1/payments status=201 dur_ms=76 user=u_1041
+2024-05-01T09:18:12.710Z [billing] INFO span export batch=21 traces=66 dropped=0
+2024-05-01T09:18:13.631Z [billing] DEBUG span export batch=17 traces=228 dropped=0
+2024-05-01T09:16:06.484Z [ingest-worker] INFO  scheduler tick jobs=12 scheduled=1 skipped=0
+2024-05-01T09:20:16.279Z [scheduler] INFO  req=6194bc route=GET /v1/orders/8543 status=200 dur_ms=11 user=u_6027
+2024-05-01T09:22:48.875Z [auth-service] WARN  pool utilisation=0.76 max=200 active=152
+2024-05-01T09:19:06.499Z [ingest-worker] DEBUG span export batch=15 traces=173 dropped=0
+2024-05-01T09:23:33.483Z [auth-service] INFO  req=6bf906 route=GET /v1/orders/8325 status=200 dur_ms=17 user=u_2210
+2024-05-01T09:16:13.634Z [api-gateway] DEBUG retry decision attempt=2 backoff_ms=661 jitter=35.0
+2024-05-01T09:15:38.969Z [billing] DEBUG retry decision attempt=1 backoff_ms=691 jitter=25.9
+2024-05-01T09:16:35.374Z [scheduler] DEBUG span export batch=29 traces=240 dropped=0
+2024-05-01T09:15:42.631Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=332 bufs=8
+2024-05-01T09:16:30.437Z [scheduler] DEBUG query plan scan=index:orders_created_at rows=151 bufs=82
+2024-05-01T09:16:02.369Z [billing] DEBUG query plan scan=index:orders_created_at rows=377 bufs=86
+2024-05-01T09:15:46.154Z [scheduler] INFO  req=6c93b1 route=GET /v1/orders/8245 status=200 dur_ms=20 user=u_3390
+2024-05-01T09:20:35.911Z [db-proxy] INFO  health probe ok host=ip-10-0-4-12 region=eu-west-1a uptime_s=8559
+2024-05-01T09:23:26.565Z [auth-service] DEBUG query plan scan=index:orders_created_at rows=199 bufs=72
+2024-05-01T09:14:39.688Z [api-gateway] INFO  scheduler tick jobs=12 scheduled=0 skipped=0
+2024-05-01T09:21:59.157Z [db-proxy] DEBUG query plan scan=index:orders_created_at rows=219 bufs=81
+2024-05-01T09:21:37.969Z [db-proxy] ERROR request failed route=GET /v1/payments status=500 user=u_3390 trace=6edf6e
+2024-05-01T09:16:46.516Z [db-proxy] INFO  req=66a7f2 route=GET /v1/orders/8551 status=200 dur_ms=10 user=u_3390
+2024-05-01T09:18:05.788Z [api-gateway] ERROR upstream failure route=POST /v1/orders status=502 upstream=orders-api dur_ms=5161
+2024-05-01T09:15:46.400Z [billing] INFO  cache hit keyspace=orders hit=94% size_mb=124
+2024-05-01T09:17:50.327Z [auth-service] INFO  req=6704bf route=GET /v1/orders status=200 dur_ms=44 user=u_4102
+2024-05-01T09:16:27.804Z [api-gateway] DEBUG span export batch=36 traces=25 dropped=0
+2024-05-01T09:16:51.568Z [api-gateway] DEBUG retry decision attempt=2 backoff_ms=389 jitter=15.6
+2024-05-01T09:18:26.853Z [api-gateway] INFO  cache hit keyspace=orders hit=92% size_mb=161
+2024-05-01T09:25:22.861Z [api-gateway] DEBUG span export batch=8 traces=162 dropped=0
+2024-05-01T09:21:43.415Z [db-proxy] WARN  pool utilisation=0.79 max=200 active=145

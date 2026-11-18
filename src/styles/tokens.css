@@ -1,0 +1,110 @@
+/* ==========================================================================
+   MergeScope design tokens
+   Dark is the default (it is an observability console). Light is a real theme,
+   not an inversion: surfaces, borders and accents are tuned separately.
+   ========================================================================== */
+
+:root {
+  --font-sans: ui-sans-serif, -apple-system, 'Segoe UI Variable Text', 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'Cascadia Mono', Consolas, 'SF Mono', Menlo,
+    monospace;
+
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 18px;
+
+  --step-0: 0.8125rem;
+  --step-1: 0.9375rem;
+  --step-2: 1.0625rem;
+  --step-3: 1.375rem;
+  --step-4: 1.875rem;
+  --step-5: 2.75rem;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #070a0e;
+  --bg-grad: radial-gradient(120% 90% at 50% -20%, #0d1a1d 0%, #070a0e 55%);
+  --panel: #0d1218;
+  --panel-2: #111821;
+  --panel-3: #151d27;
+  --line: rgba(148, 181, 199, 0.12);
+  --line-strong: rgba(148, 181, 199, 0.26);
+
+  --text: #e8eef6;
+  --text-2: #b7c4d3;
+  --muted: #8595a8;
+  --dim: #5b6b7d;
+
+  --accent: #2ee6c5;
+  --accent-ink: #03231f;
+  --accent-soft: rgba(46, 230, 197, 0.1);
+  --accent-line: rgba(46, 230, 197, 0.35);
+
+  --ok: #4ade80;
+  --warn: #fbbf24;
+  --err: #f87171;
+  --info: #7aa2ff;
+  --violet: #b78cff;
+
+  --sev-trace: #6b7c90;
+  --sev-debug: #8fa3b8;
+  --sev-info: #7aa2ff;
+  --sev-warn: #fbbf24;
+  --sev-error: #f87171;
+  --sev-critical: #fb7185;
+  --sev-fatal: #c084fc;
+
+  --grid: rgba(148, 181, 199, 0.09);
+  --bar: #1b2733;
+  --bar-edge: rgba(148, 181, 199, 0.45);
+  --shadow: 0 24px 60px -40px rgba(0, 0, 0, 0.95);
+  --hover: rgba(148, 181, 199, 0.06);
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+
+  --bg: #f6f7f9;
+  --bg-grad: radial-gradient(120% 90% at 50% -30%, #e6f4f1 0%, #f6f7f9 60%);
+  --panel: #ffffff;
+  --panel-2: #f6f8fa;
+  --panel-3: #eef2f6;
+  --line: rgba(15, 32, 45, 0.1);
+  --line-strong: rgba(15, 32, 45, 0.22);
+
+  --text: #0d1a24;
+  --text-2: #33475b;
+  --muted: #5d7183;
+  --dim: #8298a8;
+
+  --accent: #0a8f7d;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(10, 143, 125, 0.09);
+  --accent-line: rgba(10, 143, 125, 0.4);
+
+  --ok: #12805c;
+  --warn: #a05a06;
+  --err: #c03434;
+  --info: #2a5fd0;
+  --violet: #7c3fd4;
+
+  --sev-trace: #7a8ba0;
+  --sev-debug: #5d7183;
+  --sev-info: #2a5fd0;
+  --sev-warn: #a05a06;
+  --sev-error: #c03434;
+  --sev-critical: #b3164a;
+  --sev-fatal: #7c3fd4;
+
+  --grid: rgba(15, 32, 45, 0.08);
+  --bar: #b9cbdb;
+  --bar-edge: #7e93a6;
+  --shadow: 0 20px 50px -40px rgba(15, 32, 45, 0.5);
+  --hover: rgba(15, 32, 45, 0.04);
+}
