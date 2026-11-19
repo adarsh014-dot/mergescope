@@ -1,5 +1,11 @@
 # MergeScope
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![tests](https://img.shields.io/badge/tests-49%20passing-brightgreen)
+![license](https://img.shields.io/badge/license-MIT-blue)
+
 **Sort large log files and CSV records with a hand-written merge sort — and watch the recursion tree that did it.**
 
 MergeScope is a browser workbench for a classic DAA Unit‑1 assignment: implement merge sort,
@@ -211,6 +217,8 @@ to the global count, comparison bounds, playback fidelity, and 15 parser edge ca
 ---
 
 ## Licence / attribution
+
+Released under the **MIT Licence** — see [LICENSE](LICENSE).
 
 Written from scratch for coursework. No third-party UI, chart or sorting library is used at
 runtime; the only dependencies are React, Vite and TypeScript (development).
